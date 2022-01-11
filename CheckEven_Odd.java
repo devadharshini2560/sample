@@ -1,4 +1,4 @@
-package ExamplePrograms;
+package ExamplePro;
 import java.util.Scanner;
 public class CheckEven_Odd {
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class CheckEven_Odd {
 		int num = toscan.nextInt();
 		int index;
 		if(num % 2 ==0) {
-			System.out.println("Entered number " + num + " is Even");
+			System.out.prnitln("Entered number " + num + " is Even");
 		}
 		else {
 			System.out.println("Entered number " + num + " is Odd");
